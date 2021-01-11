@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>基础示例</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.css">
+  <style type="text/css">
+    #image-container-2 div {
+        overflow: hidden;
+        display: inline-block;
+    }
+  </style>
+</head>
+<body>
+<div class="bg-blue-400 bg-gradient-to-br p-4 w-full shadow">
+  <h1 class="text-white">顶部区域</h1>
+</div>
+<div class="container mx-auto">
+  <div class="max-w-4xl mx-auto mt-6">
+    <div class="sm:p-6 bg-white shadow overflow-hidden rounded-lg mt-6">
+      <h3 class="font-semibold text-xl">ImagePreview - 1</h3>
+      <div class="grid grid-cols-6 grid-rows-1 gap-16" id="image-container-1">
+          <img onclick="showImages(this, document.querySelectorAll('#image-container-1 img'))" data-width="1920" data-height="1080" src="https://tva1.sinaimg.cn/large/0072Vf1pgy1foxk782lbsj31hc0u0tr4.jpg" data-id="image-0" class="item" style="width: 95px; height: 246px;">
+          <img onclick="showImages(this, document.querySelectorAll('#image-container-1 img'))" data-width="1920" data-height="1080" src="https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkj7vgb3j31hc0u0nhs.jpg" data-id="image-1" class="item" style="width: 197px; height: 169px;">
+          <img onclick="showImages(this, document.querySelectorAll('#image-container-1 img'))" data-width="2048" data-height="1152" src="https://tva1.sinaimg.cn/large/0072Vf1pgy1foxkd6lx6jj31kw0w0wyb.jpg" data-id="image-2" class="item" style="width: 197px; height: 231px;">
+          <img onclick="showImages(this, document.querySelectorAll('#image-container-1 img'))" data-width="1920" data-height="1200" src="https://tva1.sinaimg.cn/large/87c01ec7gy1frkis8v9alj21hc0xcazc.jpg" data-id="image-3" class="item" style="width: 279px; height: 124px;">
+          <img onclick="showImages(this, document.querySelectorAll('#image-container-1 img'))" data-width="1920" data-height="1080" src="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkft70qtj31hc0u0tqy.jpg" data-id="image-4" class="item" style="width: 95px; height: 25px;">
+      </div>
+    </div>
+    <div class="sm:p-6 bg-white shadow overflow-hidden rounded-lg mt-6">
+      <h3 class="font-semibold text-xl">ImagePreview - 2</h3>
+      <div class="" id="image-container-2">
+        <div onclick="showImages(this, document.querySelectorAll('#image-container-2 div'))" data-id="image-0" data-src="https://tva1.sinaimg.cn/large/0072Vf1pgy1foxk782lbsj31hc0u0tr4.jpg" data-width="1920" data-height="1080" class="item" style="width: 95px; height: 246px;">
+          <img  src="https://tva1.sinaimg.cn/large/0072Vf1pgy1foxk782lbsj31hc0u0tr4.jpg" style="width: 95px; height: 246px; opacity: 1;">
+        </div>
+        <div onclick="showImages(this, document.querySelectorAll('#image-container-2 div'))" data-width="1920" data-height="1080" data-src="https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkj7vgb3j31hc0u0nhs.jpg" data-id="image-1" style="width: 197px; height: 169px;">
+          <img  src="https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkj7vgb3j31hc0u0nhs.jpg" class="item" style="width: 197px; height: 169px;">
+        </div>
+        <div onclick="showImages(this, document.querySelectorAll('#image-container-2 div'))" data-width="2048" data-height="1152" data-src="https://tva1.sinaimg.cn/large/0072Vf1pgy1foxkd6lx6jj31kw0w0wyb.jpg" data-id="image-2" style="width: 197px; height: 231px;">
+          <img class="item" src="https://tva1.sinaimg.cn/large/0072Vf1pgy1foxkd6lx6jj31kw0w0wyb.jpg" style="width: 197px; height: 231px;">
+        </div>
+        <div onclick="showImages(this, document.querySelectorAll('#image-container-2 div'))" data-width="1920" data-height="1200" data-src="https://tva1.sinaimg.cn/large/87c01ec7gy1frkis8v9alj21hc0xcazc.jpg" data-id="image-3" style="width: 279px; height: 124px;">
+          <img src="https://tva1.sinaimg.cn/large/87c01ec7gy1frkis8v9alj21hc0xcazc.jpg" class="item" style="width: 279px; height: 124px;">
+        </div>
+        <div onclick="showImages(this, document.querySelectorAll('#image-container-2 div'))" data-width="1920" data-height="1080" data-src="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkft70qtj31hc0u0tqy.jpg" data-id="image-4" style="width: 95px; height: 25px;">
+          <img src="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkft70qtj31hc0u0tqy.jpg" class="item" style="width: 95px; height: 25px;">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--<script src="cdn url"></script>-->
+<script src="../../dist/image_preview.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    window.showImages = (dom, items ) => {
+      ImagePreview().initPreview(dom, items);
+    }
+  })
+</script>
+</body>
+</html>
