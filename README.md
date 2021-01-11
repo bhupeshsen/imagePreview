@@ -5,7 +5,15 @@
 - [Demo / 在线演示](https://fengzi91.github.io/imagePreview/examples/basic/)
 
 ### 使用
-
+- Use npm
+```
+npm install image-preview-simple
+```
+```
+import imagePreview from 'image-preview-simple'
+// Add on click event
+imagePreview().initPreview(dom, items)
+```
 - use cdn
 ```
 <script src="//cdn.jsdelivr.net/gh/fengzi91/imagepreview@main/dist/image_preview.js"></script>
