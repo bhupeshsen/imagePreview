@@ -1,2 +1,2 @@
 import imagePreview from './src/image'
-export default imagePreview;
+export default imagePreview
