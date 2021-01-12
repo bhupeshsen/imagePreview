@@ -4,9 +4,10 @@
   "description": "JS图片预览组件",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack s --mode=development --open --config=./examples/basic/webpack.config.js",
     "vue": "webpack s --mode=development --open --config=./examples/vue/webpack.config.js",
     "vue-build": "webpack --mode=production --config=./examples/vue/webpack.config.js",
-    "build": "webpack --mode=production",
+    "build": "webpack --mode=production --config=./examples/basic/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

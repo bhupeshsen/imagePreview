@@ -1,7 +1,17 @@
 <template>
   <div>
   <div class="bg-blue-400 bg-gradient-to-br p-4 w-full shadow">
-    <h1 class="text-white">顶部区域</h1>
+    <div class="flex">
+      <h1 class="text-white mr-auto">Image Preview Simple</h1>
+      <nav class="flex max-w-7xl w-full h-full -my-4">
+        <a class="px-2 py-4 text-white" href="/examples/basic/">
+          Basic
+        </a>
+        <a class="px-2 py-4 text-white border-bottom-2" href="/examples/basic/">
+          Vue
+        </a>
+      </nav>
+    </div>
   </div>
   <div class="container mx-auto">
     <div class="max-w-4xl mx-auto mt-6">

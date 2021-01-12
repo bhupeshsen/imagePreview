@@ -26,11 +26,11 @@ imagePreview().initPreview(dom, items)
  - [基础用法](examples/basic/index.html)
  - [Vue](examples/vue/App.vue)
  
-|参数|是否必须|默认值|说明|
+|参数|必填|默认值|说明|
 |----|----|----|----|
 |dom|是|当前要显示的图片所在 Dom|该元素必须包含 data-id (唯一 id)、data-src (或 src，图像地址)、data-width (图像宽度)、data-height (图片高度) 四个属性|
-|items|否|null|NodeList[] 将要显示的一组图片 Dom 可以通过 document.querySelectorAll 方法获取|
+|items|否|空|不填自动获取同级包含 data-width 的元素为一组图片 <br /> false 单图模式 <br /> Dom 数组 (一组图片)|
 
 ### License
 ------------
-The MIT License (MIT).
+MIT
