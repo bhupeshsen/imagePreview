@@ -1,13 +1,10 @@
 {
   "name": "image-preview-simple",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "JS图片预览组件",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack s --mode=development --open --config=./examples/basic/webpack.config.js",
-    "vue": "webpack s --mode=development --open --config=./examples/vue/webpack.config.js",
-    "vue-build": "webpack --mode=production --config=./examples/vue/webpack.config.js",
-    "build": "webpack --mode=production --config=./examples/basic/webpack.config.js",
+    "build": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -25,16 +22,15 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "image-preview-simple": "^1.0.2",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "autoprefixer": "^10.2.1",
     "babel-loader": "^8.2.2",
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^5.0.1",
     "eslint": "^7.17.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.1.0",
@@ -42,16 +38,8 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "html-webpack-plugin": "^4.5.1",
-    "postcss-loader": "^4.1.0",
     "prettier": "^2.2.1",
-    "style-loader": "^2.0.0",
-    "tailwindcss": "^2.0.2",
-    "vue": "^2.6.12",
-    "vue-loader": "^15.9.6",
-    "vue-template-compiler": "^2.6.12",
-    "webpack": "^5.12.2",
-    "webpack-cli": "^4.3.1",
-    "webpack-dev-server": "^3.11.1"
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.3.1"
   }
 }

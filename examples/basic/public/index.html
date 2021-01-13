@@ -7,7 +7,6 @@
   <title>基础示例</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.css">
   <style type="text/css">
     #image-container-2 div {
         overflow: hidden;
@@ -19,7 +18,7 @@
 <div class="bg-blue-400 bg-gradient-to-br p-4 w-full shadow flex">
   <h1 class="text-white mr-auto">顶部区域</h1>
   <nav class="flex max-w-7xl w-full h-full -my-4">
-    <a class="px-2 py-4 text-white border-b-2 mx-2 hover:border-b-2" href="/examples/basic/">
+    <a class="px-2 py-4 text-white border-b-2 mx-2 hover:border-b-2" href="/examples/basic/dist/">
       Basic
     </a>
     <a class="px-2 py-4 text-white border-bottom-2 mx-2 hover:border-b-2" href="/examples/vue/dist/">
@@ -36,7 +35,7 @@
             onclick="showImages(this, document.querySelectorAll('.item'))"
             data-width="1365"
             data-height="2048"
-            src="./images/1.jpg"
+            src="images/1.jpg"
             data-id="image-0"
             class="item mx-2"
             style="width: 136px; height: 248px;">
@@ -44,7 +43,7 @@
             onclick="showImages(this, document.querySelectorAll('#image-container-1 img'))"
             data-width="2048"
             data-height="2048"
-            src="./images/2.jpeg"
+            src="images/2.jpeg"
             data-id="image-1"
             class="item mx-2"
             style="width: 204px; height: 204px;">
@@ -52,7 +51,7 @@
             onclick="showImages(this)"
             data-width="2048"
             data-height="1152"
-            src="./images/3.jpg"
+            src="images/3.jpg"
             data-id="image-2"
             class="item mx-2"
             style="width: 204px; height: 115px;">
@@ -60,7 +59,7 @@
             onclick="showImages(this, false)"
             data-width="2048"
             data-height="1070"
-            src="./images/4.jpeg"
+            src="images/4.jpeg"
             data-id="image-3"
             class="item mx-2"
             style="width: 204px; height: 107px;">
@@ -73,12 +72,12 @@
         <div
           onclick="showImages(this, false)"
           data-id="image-4"
-          data-src="./images/5.jpeg"
+          data-src="images/5.jpeg"
           data-width="1638"
           data-height="2048"
           class="item m-2"
           style="width: 163px; height: 204px;">
-          <img  src="./images/5.jpeg" style="width: 163px; height: 204px;">
+          <img src="images/5.jpeg" style="width: 163px; height: 204px;">
         </div>
         <div
           onclick="showImages(this)"

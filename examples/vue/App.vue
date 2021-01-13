@@ -4,10 +4,10 @@
     <div class="flex">
       <h1 class="text-white mr-auto">Image Preview Simple</h1>
       <nav class="flex max-w-7xl w-full h-full -my-4">
-        <a class="px-2 py-4 text-white" href="/examples/basic/">
+        <a class="px-2 py-4 text-white" href="/examples/basic/dist/">
           Basic
         </a>
-        <a class="px-2 py-4 text-white border-bottom-2" href="/examples/basic/">
+        <a class="px-2 py-4 text-white border-bottom-2" href="/examples/vue/dist/">
           Vue
         </a>
       </nav>
@@ -38,7 +38,7 @@
   </div>
 </template>
 <script>
-import showImages from '../../src/image.js'
+import showImages from 'image-preview-simple'
 export default {
   data:() => ({
     message: 'ImagePreview Vue!',
@@ -74,8 +74,7 @@ export default {
   }),
   methods: {
     showImages(dom) {
-      const items = document.querySelectorAll('.item')
-      showImages().initPreview(dom[0], items)
+      showImages.default().initPreview(dom[0])
     }
   },
 }
