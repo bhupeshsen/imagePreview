@@ -2,7 +2,7 @@
 
 一个附带简单动画效果的图片预览组件
 
-- [Demo / 在线演示](https://fengzi91.github.io/imagePreview/examples/basic/)
+- [Demo / 在线演示](https://fengzi91.github.io/imagePreview/examples/basic/dist/)
 
 ### 使用
 - Use npm

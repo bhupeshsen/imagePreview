@@ -4,10 +4,10 @@
     <div class="flex">
       <h1 class="text-white mr-auto">Image Preview Simple</h1>
       <nav class="flex max-w-7xl w-full h-full -my-4">
-        <a class="px-2 py-4 text-white" href="/examples/basic/dist/">
+        <a class="px-2 py-4 text-white" href="/imagePreview/examples/basic/dist/">
           Basic
         </a>
-        <a class="px-2 py-4 text-white border-bottom-2" href="/examples/vue/dist/">
+        <a class="px-2 py-4 text-white border-bottom-2" href="/imagePreview/examples/vue/dist/">
           Vue
         </a>
       </nav>
