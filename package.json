@@ -1,6 +1,6 @@
 {
   "name": "image-preview-simple",
-  "version": "1.0.4",
+  "version": "1.1.1",
   "description": "JS图片预览组件",
   "main": "index.js",
   "scripts": {
